@@ -15,6 +15,9 @@ class RetrofitTest {
             .build()
 //        retrofit.create()
         11111111111
+
+        22222222222
+        3333333333
     }
 
 }
