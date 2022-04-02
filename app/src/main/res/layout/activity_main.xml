@@ -15,9 +15,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ImageView
-        android:src="@drawable/ic_img_top"
         android:scaleType="fitCenter"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:onClick="onCancelCoroutine"
+        android:id="@+id/cancellableCoroutine"
+        android:text="cancelCoroutine"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
 
