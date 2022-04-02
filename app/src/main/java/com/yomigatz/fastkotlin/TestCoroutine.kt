@@ -22,9 +22,9 @@ class TestCoroutine {
         GlobalScope.launch(Dispatchers.IO) {
             delay(2000)
             callback?.onSuccess("onSuccess")
-            delay(3000)
+            delay(1000)
             callback?.onSuccess2("onSuccess2")
-            delay(2000)
+            delay(1000)
             callback?.onFailed()
         }
     }
