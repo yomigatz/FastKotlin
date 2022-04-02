@@ -26,6 +26,9 @@ class TestCoroutine {
             callback?.onSuccess2("onSuccess2")
             delay(1000)
             callback?.onFailed()
+
+            1111
+            1111
         }
     }
 
