@@ -27,15 +27,10 @@ class TestCoroutine {
             delay(1000)
             callback?.onFailed()
 
-            1111
-            1111
-            222
-            222
-            2222
-            222
+            22222
             33333
             3333
-            3333
+            333
         }
     }
 
