@@ -7,7 +7,7 @@ import retrofit2.Retrofit
  * Date: 2021/12/19 1:46
  * Description: This is RetrofitTest.
  */
-class RetrofitTest {
+class RetrofitTest2 {
 
     fun init(){
         var retrofit = Retrofit.Builder()
@@ -23,8 +23,6 @@ class RetrofitTest {
 
         555555555
         555555555
-
-        999999999
     }
 
 }
