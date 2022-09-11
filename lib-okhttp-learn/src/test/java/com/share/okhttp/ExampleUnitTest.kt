@@ -1,4 +1,4 @@
-package com.yomigatz.fastkotlin
+package com.share.okhttp
 
 import org.junit.Test
 
@@ -19,10 +19,10 @@ class ExampleUnitTest {
     }
 
     @Test
-    fun testBlocking() {
+    fun test() {
         val blockingQueue = ArrayBlockingQueue<Runnable>(1)
         val poolExecutor = ThreadPoolExecutor(
-            0, 10000, 60, TimeUnit.SECONDS, blockingQueue
+            0, Int.MAX_VALUE, 60, TimeUnit.SECONDS, blockingQueue
         )
         poolExecutor.execute {
             System.out.println("任务 task 1 :" + Thread.currentThread())
